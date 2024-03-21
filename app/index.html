@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GF Rent a Car - Login</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Hoja de estilos personalizada -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon -->
+  <link rel="icon"  href="assets/img/favicon.png" />
+
+</head>
+
+<body>
+  <main>
+    <section class="login-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 login-sec">
+            <div class="text-center">
+              <img class="mb-5" src="img/logo.png" alt="GF Rent Logo">
+            </div>
+
+            <form id="login-form" class="mt-5">
+              <div class="form-group1">
+                <label for="user">Usuario</label>
+                <input id="user" type="text" class="form-control" placeholder="">
+              </div>
+              <div class="form-group mt-2 mb-3">
+                <label class="text-left" for="password">Contraseña</label>
+                <input id="password" type="password" class="form-control" placeholder="">
+              </div>
+
+
+              <div class="form-check text-center me-4">
+                <button type="submit" class="btn btn-login float-right">Acceder</button>
+              </div>
+
+            </form>
+
+          </div>
+          <div class="col-md-8 banner-sec">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="img/Antofagasta_new_branch_banner-jpg.webp" class="d-block w-100" alt="Antofagasta">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="img/aeropuerto2.png" class="d-block w-100" alt="Aeropuerto">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="img/Uber-GF-Rent-768x307.png" class="d-block w-100" alt="Uber">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+    </section>
+  </main>
+  <!-- Js personalizado -->
+  <script type="module" src="js/login.js" defer></script>
+  <!-- Bootstrap Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+    integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
