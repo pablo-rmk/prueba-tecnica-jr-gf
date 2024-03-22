@@ -15,7 +15,7 @@ En Grupo Firma, estamos buscando un desarrollador que nos ayude a implementar un
 - Clonar el repositorio
 - En la terminal, acceder a la carpeta del proyecto e instalar las dependencias:
     npm install
-- Opcionalmente, instalar con opción de desarrollador
+- Opcionalmente, instalar con opción de desarrollador:
     npm install --dev
 
 ## Uso
