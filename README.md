@@ -9,7 +9,6 @@ En Grupo Firma, estamos buscando un desarrollador que nos ayude a implementar un
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contribución](#contribución)
-- [Licencia](#licencia)
 
 ## Instalación
 
