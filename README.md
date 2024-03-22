@@ -20,7 +20,7 @@ En Grupo Firma, estamos buscando un desarrollador que nos ayude a implementar un
 
 ## Uso
 
-- Desde la terminal, en la carpeta del proyecto, inicial con:
+- Desde la terminal, en la carpeta del proyecto, iniciar con:
     npm run dev
 
 ## Despliegue
