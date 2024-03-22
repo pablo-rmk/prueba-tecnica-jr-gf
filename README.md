@@ -13,23 +13,19 @@ En Grupo Firma, estamos buscando un desarrollador que nos ayude a implementar un
 
 ## Instalación
 
-Instrucciones sobre cómo instalar y configurar el proyecto.
+1.- Clonar el repositorio
+2.- En la terminal, acceder a la carpeta del proyecto e instalar las dependencias:
+    npm install
+    Opcionalmente, instalar con opción de desarrollador
+    npm install --dev
 
 ## Uso
 
-Instrucciones sobre cómo utilizar el proyecto y ejemplos de código.
+Desde la terminal, en la carpeta del proyecto, inicial con:
+    npm run dev
 
-## Contribución
+## Despliegue
 
-Guía para contribuir al proyecto y reglas para enviar solicitudes de extracción (pull requests).
+Se disponibiliza el proyecto en el siguiente link:
+    https://prueba-tecnica-jr-gf.onrender.com
 
-## Licencia
-
-Información sobre la licencia del proyecto.
-
-
-PRUEBA TÉCNICA GF RENT - DESARROLLADOR JUNIOR
-
-Descripción
-
-En Grupo Firma, estamos buscando un desarrollador que nos ayude a implementar un sistema de login para comenzar a construir nuestro software de renta de automóviles. Te hemos contratado para realizar nuestro login utilizando una API de pruebas. Contamos con un endpoint para el login, que es el siguiente: https://dummyjson.com/auth/login
