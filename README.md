@@ -12,19 +12,19 @@ En Grupo Firma, estamos buscando un desarrollador que nos ayude a implementar un
 
 ## Instalación
 
-1.- Clonar el repositorio
-2.- En la terminal, acceder a la carpeta del proyecto e instalar las dependencias:
+- Clonar el repositorio
+- En la terminal, acceder a la carpeta del proyecto e instalar las dependencias:
     npm install
-    Opcionalmente, instalar con opción de desarrollador
+- Opcionalmente, instalar con opción de desarrollador
     npm install --dev
 
 ## Uso
 
-Desde la terminal, en la carpeta del proyecto, inicial con:
+- Desde la terminal, en la carpeta del proyecto, inicial con:
     npm run dev
 
 ## Despliegue
 
-Se disponibiliza el proyecto en el siguiente link:
+- Se disponibiliza el proyecto en el siguiente link:
     https://prueba-tecnica-jr-gf.onrender.com
 
